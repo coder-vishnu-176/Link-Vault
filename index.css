@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    padding: 22px;
+    min-width: 400px;
+    background: #0f172a;
+    color: #f8fafc;
+}
+
+#input-el {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    outline: none;
+    background: #1e293b;
+    color: #f8fafc;
+    font-family: inherit;
+    font-size: 15px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#input-el::placeholder {
+    color: #94a3b8;
+}
+
+#input-el:focus {
+    border-color: #5fce91;
+    box-shadow: 0 0 0 3px #5fce9120;
+}
+
+button {
+    margin-top: 12px;
+    margin-right: 5px;
+    padding: 10px 13px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: #5fce91;
+    color: #10251a;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+button:hover {
+    background: #82e6ad;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+#delete-btn {
+    background: transparent;
+    color: #f87171;
+    border-color: #f87171;
+}
+
+#delete-btn:hover {
+    background: #f8717118;
+}
+
+#ul-el {
+    margin-top: 24px;
+    list-style: none;
+}
+
+#ul-el:empty {
+    display: none;
+}
+
+#ul-el li {
+    margin-top: 9px;
+    padding: 12px 14px;
+    border: 1px solid #263449;
+    border-radius: 8px;
+    background: #172337;
+    overflow-wrap: anywhere;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+#ul-el li:hover {
+    border-color: #5fce91;
+    background: #1e3045;
+}
+
+#ul-el li a {
+    color: #8ee6b0;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+#ul-el li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

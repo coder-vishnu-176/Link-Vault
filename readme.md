@@ -31,11 +31,11 @@ Link-Vault/
 ## 📸 Screenshots
 
 ### Main Interface
-![Main Interface](<Demo Images/image1.png>)
+![Main Interface](<Demo Images/Image1.png>)
 
 ### Saved Links
-![Saved Links](<Demo Images/image2.png>)
+![Saved Links](<Demo Images/Image2.png>)
 
 ### Save Tab
-![Save Tab](<Demo Images/image3.png>)
+![Save Tab](<Demo Images/Image3.png>)
 

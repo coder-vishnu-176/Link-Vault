@@ -12,14 +12,14 @@ A Chrome extension to save URLs and browser tabs for quick access whenever neede
 - Local Storage
 
 ### Project Structure
-
+```text
 Link-Vault/
 ├── index.html
 ├── index.css
 ├── index.js
 ├── manifest.json
 └── icon.png
-
+```
 
 ### Installation
 1. Clone or download this repository.

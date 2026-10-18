@@ -28,3 +28,14 @@ Link-Vault/
 4. Click **Load unpacked**.
 5. Select the project folder.
 
+## 📸 Screenshots
+
+### Main Interface
+![Main Interface](<Demo Images/image1.png>)
+
+### Saved Links
+![Saved Links](<Demo Images/image2.png>)
+
+### Save Tab
+![Save Tab](<Demo Images/image3.png>)
+
